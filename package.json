@@ -1,0 +1,13 @@
+{
+  "name": "react-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "start:backend": "npm start -w packages/backend",
+    "build:frontend": "npm run build -w packages/frontend",
+    "start:frontend": "npm run server -w packages/frontend"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
