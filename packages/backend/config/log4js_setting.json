@@ -2,11 +2,11 @@
     "appenders": {
         "system": {
             "type": "file",
-            "filename": "./log/system.log"
+            "filename": "./logs/system.log"
         },
         "debug": {
             "type": "file",
-            "filename": "./log/debug.log"
+            "filename": "./logs/debug.log"
         },
         "console": {
             "type": "stdout",
